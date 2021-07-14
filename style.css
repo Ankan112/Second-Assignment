@@ -157,4 +157,73 @@ footer{
 }
 /* footer style end  */
 
-
+@media screen and (max-width: 680px) {
+    header{
+        display: block;
+        padding: 50px 50px;
+        margin: 0;
+    }
+    .header-title{
+        font-size: 30px;
+        width: 80%;
+    }
+    .header-img{
+        width: 80%;
+    }
+    article{
+        margin: 50px 50px;
+    }
+    .all-players{
+        display: block;
+    }
+    .single-player{
+        margin-bottom: 50px;
+    }
+    .all-news{
+        display: inline;
+        margin-top: 60px;
+    }
+    .single-news{
+        width: 80%;
+        padding: 30px 30px;
+        box-shadow: 0 0 20px 0;
+        margin: 15px;
+    }
+    .jersey-cornar{
+        padding: 20px 50px;
+        width: 360px;
+        height: 300px;
+        font-size: 30px;
+        color: white;
+     }
+     .jersey-cornar p{
+         font-size: 20px;
+         margin-bottom: 40px;
+     }
+     .btn{
+        font-size: 18px;
+        background-color: #E02C6D;
+        color: white;
+        padding: 10px 20px;
+        font-weight: 400;
+        transition: 1s;
+        border-radius: 5px;
+    }
+    .fas{
+        padding-left: 6px;
+    }
+    .fourth-section{
+        display: inline;
+    }
+    .section-title{
+        width: 80%;
+        margin: 60px;
+    }
+    .section-img{
+        width: 80%;
+        margin: 60px;
+    }
+    .section-img img{
+        width: 100%;
+    }
+}  
